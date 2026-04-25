@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Pink Mode 🌸",
+  "version": "1.0",
+  "description": "Turns every website into shades of pink",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
